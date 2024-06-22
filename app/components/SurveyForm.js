@@ -213,8 +213,8 @@ const SurveyForm = () => {
               >
                 <option value="">Select qualification</option>
                 <option value="High School">High School</option>
-                <option value="Bachelor's Degree">Bachelor's Degree</option>
-                <option value="Master's Degree">Master's Degree</option>
+                <option value="Bachelor's Degree">Bachelors Degree</option>
+                <option value="Master's Degree">Masters Degree</option>
                 <option value="Doctorate">Doctorate</option>
               </select>
               {errors.highestQualification && <p className="text-red-500 text-sm mt-1">{errors.highestQualification}</p>}
